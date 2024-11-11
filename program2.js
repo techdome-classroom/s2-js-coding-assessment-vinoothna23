@@ -11,10 +11,10 @@ var romanToInt = function(s) {
     let prev= 0;
     
     for (let i = s.length - 1; i >= 0; i--) {
-        const current = romanMap[s[i]];
+        const curr= romanMap[s[i]];
         
-        if (current < prevValue) {
-            total -= current;
+        if (curr< prev) {
+            t -= cur;
         } else {
             total += current;
             prevValue = current;
