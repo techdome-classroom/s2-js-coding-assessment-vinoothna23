@@ -3,14 +3,6 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    
-};
-
-module.exports = { isValid };
-
-
-
-var isValid = function(s) {
     const stack = [];
     const map = {
         '(': ')',
@@ -28,6 +20,15 @@ var isValid = function(s) {
         }
     }
     return stack.length === 0;
+    
+};
+
+module.exports = { isValid };
+
+
+
+var isValid = function(s) {
+    
 };
 
 module.exports = { isValid };
