@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    const sta= [];
+    const sk= [];
     const map = {
         '(': ')',
         '[': ']',
