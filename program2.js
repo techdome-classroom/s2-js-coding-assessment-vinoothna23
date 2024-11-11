@@ -14,7 +14,7 @@ var romanToInt = function(s) {
         const curr= romanMap[s[i]];
         
         if (curr< prev) {
-            t -= cur;
+            t -= curr;
         } else {
             t+= curr;
             prev= curr;
