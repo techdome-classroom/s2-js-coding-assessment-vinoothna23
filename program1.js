@@ -14,12 +14,12 @@ var isValid = function(s) {
         if (map[char]) {
             sk.push(char);
         } else {
-            if (stack.length === 0 || map[stack.pop()] !== char) {
+            if (sk.length === 0 || map[sk.pop()] !== char) {
                 return false;
             }
         }
     }
-    return stack.length === 0;
+    return sk.length === 0;
     
 };
 
