@@ -23,12 +23,3 @@ var isValid = function(s) {
     
 };
 
-module.exports = { isValid };
-
-
-
-var isValid = function(s) {
-    
-};
-
-module.exports = { isValid };
