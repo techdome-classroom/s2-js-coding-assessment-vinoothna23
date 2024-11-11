@@ -8,7 +8,7 @@ var romanToInt = function(s) {
     };
     
     let t= 0;
-    let prevValue = 0;
+    let prev= 0;
     
     for (let i = s.length - 1; i >= 0; i--) {
         const current = romanMap[s[i]];
